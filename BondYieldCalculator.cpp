@@ -12,7 +12,6 @@
 
 #define accuracyDelta pow(10, -7)
 
-// All inputs are assumed to be non-negative values
 bool parseBondArgs(double& coupon, int& years, double& face, double& rateOrPrice, bool getRate) {
     std::string arg;
     try {
