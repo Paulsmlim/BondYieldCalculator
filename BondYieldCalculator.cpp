@@ -15,7 +15,7 @@
 bool parseBondArgs(double& coupon, int& years, double& face, double& rateOrPrice, bool getRate) {
     std::string arg;
     try {
-        std::cout << " Coupon %: ";
+        std::cout << " Coupon Rate: ";
         std::cin >> arg;
         coupon = std::stod(arg);
         
@@ -80,7 +80,7 @@ void CalcPriceOption() {
     int years;
     
     if (!parseBondArgs(coupon, years, face, rate, true)) {
-        std::cout << "Input parse error. Please enter values in correct format\n" << std::endl;
+        std::cout << "Input parse error. Please enter numerical values in correct format.\n" << std::endl;
         return;
     }
     // track the run time of bond price calculation
@@ -98,7 +98,7 @@ void CalcYieldOption() {
     int years;
     
     if (!parseBondArgs(coupon, years, face, price, false)) {
-        std::cout << "Input parse error. Please enter values in correct format\n" << std::endl;
+        std::cout << "Input parse error. Please enter numerical values in correct format.\n" << std::endl;
         return;
     }
     // track the run time of bond yield calculation

@@ -17,5 +17,5 @@ the bond price calculated using this midYield is equal to the given bond
 price entered by the user, the bond's yield is equal to midYield. This algorithm
 is used with the assumption that the yield of a bond is in the interval [0.0, 1.0].
 
-The program outputs the runtime of the calculation algorithm after it outputs
-the bond's price or yield.
+The program outputs the runtime of the calculation algorithm in nanoseconds
+after it outputs the bond's price or yield.
