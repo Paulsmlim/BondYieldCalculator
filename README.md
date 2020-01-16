@@ -1,11 +1,11 @@
 # BondYieldCalculator
 
 This program calculates:
-1) The price of a bond given its coupon %, years, face value, and yield
-2) The yield of a bond given its coupon %, years, face value, and price
+1) The price of a bond given its coupon %, years, face value, and yield.
+2) The yield of a bond given its coupon %, years, face value, and price.
 
 The price of a bond is calculated using the annuity formula and adding the
-discounted face value
+discounted face value.
 
 >Bond Price = C/r * ( 1 - 1/(1+r)^t ) + faceValue/(1+r)^t
 
